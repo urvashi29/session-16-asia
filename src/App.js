@@ -3,6 +3,8 @@ import Counter from "./Counter";
 import CounterDec from "./CounterDec";
 // import MovieData from "./MovieData";
 // import MovieCount from "./MovieCount";
+import ApiData from "./ApiData";
+import CounterFunction from "./CounterFunction";
 
 const App = () => {
 
@@ -10,9 +12,13 @@ const App = () => {
     <React.Fragment>
       <Counter />
       <CounterDec />
+      <ApiData />
 
       {/* <MovieCount />
       <MovieData /> */}
+
+      <h2>Function Based Component</h2>
+      <CounterFunction />
     </React.Fragment>
 
   );
